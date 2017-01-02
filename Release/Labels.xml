@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Label>
+  <group name ="football">
+    <class name="object">
+      <name>player</name>
+      <name>soccer goal</name>
+      <name>corner flag</name>
+      <name>football</name>
+    </class>
+  </group>
+ <group name ="basketball">
+    <class name="object">
+      <name>player</name>
+      <name>basketball goal</name>
+      <name>basketball</name>
+    </class>
+  </group>
+</Label>
