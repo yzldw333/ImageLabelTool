@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\TinyXML">
+      <UniqueIdentifier>{bff841a5-2a8e-49b1-9faf-5418dfa71d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\TinyXML">
+      <UniqueIdentifier>{98cedce8-2db4-4eab-afc1-3d673d954928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ColorButton">
+      <UniqueIdentifier>{8a0436a8-5fd2-4151-a788-a830e3e3a482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ColorButton">
+      <UniqueIdentifier>{d259fb56-cb82-45ba-a798-3dcdb7bf8623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\OpenCV">
+      <UniqueIdentifier>{fe1b604d-ae15-40cc-8f27-b7cdfb18f308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OpenCV">
+      <UniqueIdentifier>{eac3e70d-ac3d-492b-a591-325384c54dbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageLabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLabelDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CImportDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>头文件\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>头文件\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLabelFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelXMLFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CColorButton.h">
+      <Filter>头文件\ColorButton</Filter>
+    </ClInclude>
+    <ClInclude Include="CColourPopup.h">
+      <Filter>头文件\ColorButton</Filter>
+    </ClInclude>
+    <ClInclude Include="CvvImage.h">
+      <Filter>头文件\OpenCV</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImageLabel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLabelDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CImportDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>源文件\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>源文件\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>源文件\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>源文件\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLabelFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelXMLFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CColorButton.cpp">
+      <Filter>源文件\ColorButton</Filter>
+    </ClCompile>
+    <ClCompile Include="CColourPopup.cpp">
+      <Filter>源文件\ColorButton</Filter>
+    </ClCompile>
+    <ClCompile Include="CvvImage.cpp">
+      <Filter>源文件\OpenCV</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImageLabel.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ImageLabel.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ImageLabel.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
